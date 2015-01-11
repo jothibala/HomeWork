@@ -1,0 +1,33 @@
+<html>
+<head>
+<title>Find Sum and product of Array</title>
+</head>
+	<body>
+		<div id="sumOfArray">
+			<form name="sumArrayForm">
+				<select multiple="multiple" id="multiSelectInputBox">
+				  <option value="1">1</option>
+				  <option value="2">2</option>
+				  <option value="3">3</option>
+				  <option value="4">4</option>
+				</select>
+				<input type = "button" value = "Sum of Array" onclick = "bellatrix.logicalPrograms.sumOfArray();"/>
+				<span id="displayResultForSum">
+				</span>
+			</form>
+		</div>
+
+		<div id="productOfArray">
+			<form name="productArrayForm">
+				<input type = "button" value = "Product of Array" onclick = "bellatrix.logicalPrograms.productOfArray();"/>
+				<span id="displayResultForProduct">
+				</span>
+				<input type = "reset" value="Reset" onClick="bellatrix.logicalPrograms.displayResult();"/>
+			</form>
+		</div>	
+ 
+	<script type="text/javascript" src="homework.js">
+	</script>
+
+</body>
+</html>
